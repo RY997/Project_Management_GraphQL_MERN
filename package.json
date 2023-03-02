@@ -1,0 +1,33 @@
+{
+  "name": "project_management_graphql_mern",
+  "version": "1.0.0",
+  "description": "Use MERN Stack to build a project management website, practice graphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RY997/Project_Management_GraphQL_MERN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RY997/Project_Management_GraphQL_MERN/issues"
+  },
+  "homepage": "https://github.com/RY997/Project_Management_GraphQL_MERN#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
